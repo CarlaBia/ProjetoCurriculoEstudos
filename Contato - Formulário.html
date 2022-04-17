@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Contato </title>
+
+<body>
+    <form>
+        <input type="search" name="nome" placeholder="Nome" /> <br />
+        <input type="email" name="email" placeholder="E-mail" /> <br />
+        <input type="tel" name="tel" placeholder="(xx) xxxx-xxxx" /> <br />
+        <input type="number" name="idade" placeholder="Idade" /> <br />
+        <input type="url" name="linkedin" placeholder="linkedin URL" /> <br />
+        Urgência <input type="range" name="ungencia" min=0 max=100 step=0.1 /> <br />
+        Dia da semana <br/>
+        <input type="checkbox" name="dia-da-semana" value=2 /> Segunda-feira <br />
+        <input type="checkbox" name="dia-da-semana" value=3 /> Terça-feira <br />
+        <input type="checkbox" name="dia-da-semana" value=4 /> Quarta-feira <br />
+        Turno <br />
+        <input type="radio" name="turno" value="manhã" /> Manhã <br />
+        <input type="radio" name="turno" value="tarde" /> Tarde <br />
+        <input type="radio" name="turno" value="noite" /> Noite <br />
+        <textarea name="mensagem" cols=60 rows=10> </textarea> <br />
+        Escolha a cidade
+        <input list="cidade" name="cidade" />
+        <datalist id="cidade">
+            <option value="salvador"> Salvador </option> <br />
+            <option value="Feia-de-Santada"> Feira de S. </option> <br />
+            <option value="Ilheus"> Ilheus </option> <br />
+        </datalist> <br />
+        <button type="button"> Outra ação </button>
+        <button type="reset"> Limpar </button>
+        <button type="submit"> Enviar </button>
+    </form>
+</body>
+
+</head>
+
+</html>
